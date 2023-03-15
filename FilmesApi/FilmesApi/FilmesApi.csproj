@@ -15,4 +15,9 @@
       <Folder Include="Docker\MySQL\data" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="WeatherForecast.cs" />
+      <Compile Remove="Controllers\WeatherForecastController.cs" />
+    </ItemGroup>
+
 </Project>
